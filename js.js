@@ -226,7 +226,7 @@ function autoplay(){
         computerMove= scissors;
     
         play(userMove,computerMove);
-            } , 100);
+            } , 500);
 
 
 
