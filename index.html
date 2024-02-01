@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main_container">
+  <p class="topic">Rock Paper Scissors</p>
+
+  <div class="moves-container">
+    
+    <button class="move-btn" onclick="move('rock')">
+      <img src="https://supersimple.dev/projects/rock-paper-scissors/images/rock-emoji.png" id="rock_icon" class="move-img" alt="">
+    </button>
+    <button class="move-btn" onclick="move('paper')">
+      <img src="https://supersimple.dev/projects/rock-paper-scissors/images/paper-emoji.png"  id="paper_icon" class="move-img no_margin" alt="">
+    </button>
+    <button class="move-btn" onclick="move('scissors')">
+      <img src="https://supersimple.dev/projects/rock-paper-scissors/images/scissors-emoji.png"  id="scissors_icon" class="move-img no_margin" alt="">
+    </button>
+
+  </div>
+
+  <p class="result-display"></p>
+
+  <div class="moves-display">
+  
+      <p class="your-move"></p>
+      <p class="computer-move"></p>
+      
+
+
+  </div>
+
+  <div class="score-container">
+
+    <p class="wins"></p>
+    <p class="looses"></p>
+    <p class="ties"></p>
+
+  </div>
+
+<button  class="reset-btn" onclick="reset()">Reset Score</button>
+<button class="autoplay-button reset-btn" onclick="autoplay()">auto play</button>
+</div>
+
+<script src="js.js"></script>
+</body>
+</html>
